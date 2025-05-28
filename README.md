@@ -1,12 +1,12 @@
 
-# Road Compilance AI 🛡️  
+# Road Compilance AI 
 **AI-Based Helmet & Number Plate Detection System using YOLOv8n**
 
  Road Compilance AI is a real-time computer vision system built using YOLOv8n to monitor and detect helmet usage and number plates of motorcycle riders. Designed for traffic surveillance and road safety enforcement, the system processes images and videos to identify helmet violations and extract license plate data.
 
 ---
 
-## 🚀 Features
+##  Features
 - **Helmet Detection**: Accurately detects whether motorcycle riders are wearing helmets.
 - **Number Plate Recognition**: Identifies and localizes vehicle number plates for further processing.
 - **Dual YOLO Support**: Compatible with  YOLOv8n models for flexible deployment.
@@ -19,7 +19,7 @@
 
 ---
 
-## 🧠 Project Structure
+## Project Structure
 
 ```
 Road compilace Ai/
@@ -40,7 +40,7 @@ Road compilace Ai/
 ```
 
 
-## ⚙️ Configuration
+##  Configuration
 
 - **Dataset**: Add your YOLO-annotated images to `data/images` and corresponding label files to `data/labels`.
 - **Class Names**: Edit `data.yaml` to include your detection classes:
@@ -52,7 +52,7 @@ Road compilace Ai/
 
 ---
 
-## 🏋️‍♀️ Training the Model
+##  Training the Model
 
 ```bash
 # Train with YOLOv8
@@ -61,7 +61,7 @@ yolo task=detect mode=train model=yolov8n.pt data=data.yaml epochs=50 imgsz=640
 
 ---
 
-## 🕵️ Running Inference
+##  Running Inference
 
 ```bash
 # Run inference with YOLOv8
@@ -72,7 +72,7 @@ yolo task=detect mode=predict model=models/best.pt source=data/images/ conf=0.4
 
 ---
 
-## 🔧 Customization
+##  Customization
 
 - **Detection Classes**: Update the `names` field in `data.yaml` to match your specific detection targets.
 - **Video Input Source**: In inference commands, set the `source` parameter to a webcam index (e.g., `0`) or provide a path to a video file for custom input.
@@ -80,7 +80,7 @@ yolo task=detect mode=predict model=models/best.pt source=data/images/ conf=0.4
 
 ---
 
-## 📡 Use Cases
+##  Use Cases
 
 - **Traffic Violation Monitoring**: Automatically detects and logs helmet and number plate violations for improved road safety.
 - **Smart City Surveillance**: Integrates with urban monitoring systems to enhance public safety and compliance.
@@ -89,7 +89,7 @@ yolo task=detect mode=predict model=models/best.pt source=data/images/ conf=0.4
 ---
 
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 - [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics) – for the core object detection framework.
 - [Kaggle Helmet Detection Dataset](https://www.kaggle.com/datasets/andrewmvd/helmet-detection) – for training and evaluation data.
 - [OpenCV](https://opencv.org/) – for image and video processing.
