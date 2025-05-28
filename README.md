@@ -22,7 +22,7 @@
 ## 🧠 Project Structure
 
 ```
-helmetwatch/
+Road compilace Ai/
 ├── data/
 │   ├── images/               # Training/testing images
 │   ├── labels/               # YOLO-format labels
