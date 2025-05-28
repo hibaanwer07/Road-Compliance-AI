@@ -72,14 +72,6 @@ yolo task=detect mode=predict model=models/best.pt source=data/images/ conf=0.4
 
 ---
 
-## 📸 Sample Outputs
-
-| Helmet Detected | No Helmet | Number Plate |
-|-----------------|-----------|--------------|
-| ![](output_images/helmet.jpg) | ![](output_images/no_helmet.jpg) | ![](output_images/plate.jpg) |
-
----
-
 ## 🔧 Customization
 
 - **Detection Classes**: Update the `names` field in `data.yaml` to match your specific detection targets.
