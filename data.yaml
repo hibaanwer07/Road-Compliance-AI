@@ -1,0 +1,5 @@
+
+train: C:/Users/Pc/Downloads/helmet dataset/train/images
+val: C:/Users/Pc/Downloads/helmet dataset/val
+nc: 4
+names: ["with helmet", "without helmet", "rider", "number plate"]
