@@ -22,8 +22,9 @@
 
 - **Source**: [Kaggle Dataset – Helmet & Number Plate](https://www.kaggle.com/datasets/souravmahato/helmet-detection-dataset)
 - **Classes**:
-  - `Helmet`
-  - `NoHelmet`
+  - `with Helmet`
+  - `without Helmet`
+  - `Rider`
   - `NumberPlate`
   
 - **Format**: Annotated images in YOLO format (`.txt` files per image)
