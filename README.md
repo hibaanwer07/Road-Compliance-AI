@@ -20,7 +20,7 @@
 
 ## 📂 Dataset Description
 
-- **Source**: [Kaggle Dataset – Helmet & Number Plate](https://www.kaggle.com/datasets/souravmahato/helmet-detection-dataset)
+- **Source**: [Kaggle Dataset – Helmet & Number Plate](https://www.kaggle.com/datasets/aneesarom/rider-with-helmet-without-helmet-number-plate.)
 - **Classes**:
   - `with Helmet`
   - `without Helmet`
