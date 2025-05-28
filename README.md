@@ -45,7 +45,7 @@ Road compilace Ai/
 - **Dataset**: Add your YOLO-annotated images to `data/images` and corresponding label files to `data/labels`.
 - **Class Names**: Edit `data.yaml` to include your detection classes:
   ```yaml
-  names: ['helmet', 'without helmet', 'Rider', 'number_plate']
+  names: ['with helmet', 'without helmet', 'Rider', 'number_plate']
   ```
 - **Model Weights**: Save your trained model file (e.g., `best.pt`) in the `models/` folder.
 - **Detection Thresholds**: Modify confidence or IoU thresholds in `detect.py` to fine-tune detection sensitivity.
